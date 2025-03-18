@@ -14,7 +14,7 @@ def about():
 
 @app.route("/api/members")
 def members():
-    return "Jesse Härmälä"
+    return jsonify({"message": "Kalle Kivilahti"})
 
 def main():
     app.run(debug=True)
