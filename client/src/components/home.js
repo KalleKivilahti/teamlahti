@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import oscilio from '../images/oscilio.jpg'
+import monster from '../images/monster.png'
+import './home.css'
 
 
 function Home() {
@@ -13,8 +14,8 @@ function Home() {
 
   return (
     <div>
-      <h1>{message}</h1>
-      <img src={oscilio} alt="Oscilio" />
+      <h1 className="text">{message}</h1>
+      <img src={monster} alt="Monster" />
     </div>
   );
 }

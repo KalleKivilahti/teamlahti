@@ -15,7 +15,14 @@ def about():
 
 @app.route("/api/members")
 def members():
-    return jsonify({"message": "Kalle Kivilahti"})
+    members_data = [
+        {"name": "Kalle Kivilahti", "role": "Strategist"},
+        {"name": "Jesse Härmälä", "role": "Kano noob"},
+        {"name": "Ville Teräväinen", "role": "PR Master"},
+        {"name": "Augusti Rokkanen", "role": "2for6 gamer"}
+    ]
+    return jsonify({"members": members_data})
+
 
 @app.route("/api/stats")
 def stats():
@@ -26,3 +33,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+ 
