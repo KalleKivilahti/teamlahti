@@ -16,7 +16,7 @@ function App() {
       <nav>
         <Link to="/">Home</Link> |
         <Link to="/members">Members</Link> | 
-        <Link to="/stats">Stats</Link> |
+        <Link to="/results">Results</Link> |
         <Link to="/gallery">Gallery</Link> |
         <Link to="/about">About</Link>
       </nav>
@@ -24,7 +24,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/members" element={<Members />} />
-        <Route path="/stats" element={<Stats />} />
+        <Route path="/results" element={<Stats />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/about" element={<About />} />
       </Routes>

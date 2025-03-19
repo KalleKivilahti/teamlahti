@@ -1,9 +1,24 @@
-.text {
-    font-family: 'Courier New', Courier, monospace;
+.about-container {
     text-align: center;
-    font-size: 2rem;
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .hede {
+    font-size: 2.5rem;
     margin-top: 3rem;
-    margin-left: 0rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #a8ffa8;
+    text-shadow: 0 0 5px #4CAF50, 0 0 10px #66bb6a;
+  }
+  
+  .txt {
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    line-height: 1.6;
     color: rgb(202, 234, 203);
     text-shadow: 0 0 5px #000000, 0 0 10px #ffffff;
-}
+  }
+  
