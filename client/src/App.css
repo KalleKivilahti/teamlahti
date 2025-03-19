@@ -1,32 +1,21 @@
-.app-container {
-  background-color: #fff;
-  padding: 20px;
-}
-
-.app-header {
-  font-size: 2rem;
-}
-
-nav {
-  text-align: center;
-  margin: 20px 0;
-}
-
-nav a {
-  font-size: 1.2rem;
-  color: #a8ffa8; 
-  font-weight: 500;
+.heada {
+  position: absolute;
+  top: -0.5rem;
+  left: 8rem; 
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
   text-transform: uppercase;
-  letter-spacing: 0.8px;
-  padding: 8px 15px;
-  margin: 0 10px;
+  letter-spacing: 1.5px;
   text-decoration: none;
-  border-radius: 25px;
-  transition: text-shadow 0.3s, transform 0.3s ease;
-  text-shadow: 0 0 5px #4CAF50, 0 0 10px #66bb6a;
+  background: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-nav a:hover {
-  transform: scale(1.1);
-  text-shadow: 0 0 8px #4CAF50, 0 0 15px #66bb6a; 
+.logo {
+  display: inline-block;
+  background: linear-gradient(45deg, #4CAF50, #66bb6a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

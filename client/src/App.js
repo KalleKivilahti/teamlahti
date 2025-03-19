@@ -10,6 +10,9 @@ import Gallery from "./components/gallery";
 function App() {
   return (
     <Router>
+      <header className="heada">
+        <div className="logo">Team Lahti</div>
+      </header>
       <nav>
         <Link to="/">Home</Link> |
         <Link to="/members">Members</Link> | 

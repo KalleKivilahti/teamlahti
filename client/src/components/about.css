@@ -1,0 +1,9 @@
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-left: 0rem;
+    color: rgb(202, 234, 203);
+    text-shadow: 0 0 5px #000000, 0 0 10px #ffffff;
+}
