@@ -1,0 +1,28 @@
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-left: 0rem;
+    color: rgb(202, 234, 203);
+    text-shadow: 0 0 5px #000000, 0 0 10px #ffffff;
+}
+
+.images {
+    width: 1000px;
+    align-items: center;
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+  }
+
+  .gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+  }
+  

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './members.css';
 
 function Members() {
   const [members, setMembers] = useState([]);
@@ -12,12 +13,12 @@ function Members() {
 
   return (
     <div>
-      <h1>Team Members</h1>
+      <h1 className='text'>Team Members</h1>
       <ul>
         {members.map((member, index) => (
-          <li key={index}>
+          <p className="text" key={index}>
             <strong>{member.name}</strong> - {member.role}
-          </li>
+          </p>
         ))}
       </ul>
     </div>

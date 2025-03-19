@@ -16,13 +16,16 @@ def about():
 @app.route("/api/members")
 def members():
     members_data = [
-        {"name": "Kalle Kivilahti", "role": "Strategist"},
         {"name": "Jesse Härmälä", "role": "Kano noob"},
         {"name": "Ville Teräväinen", "role": "PR Master"},
-        {"name": "Augusti Rokkanen", "role": "2for6 gamer"}
+        {"name": "Augusti Rokkanen", "role": "2for6 gamer"},
+        {"name": "Kalle Kivilahti", "role": "Deck techer"}
     ]
     return jsonify({"members": members_data})
 
+@app.route("/api/gallery")
+def gallery():
+    return
 
 @app.route("/api/stats")
 def stats():

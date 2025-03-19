@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './stats.css'
 
 function Members() {
   const [message, setMessage] = useState('');
@@ -11,7 +12,7 @@ function Members() {
 
   return (
     <div>
-      <h1>{message}</h1>
+      <h1 className='text'>{message}</h1>
     </div>
   );
 }
